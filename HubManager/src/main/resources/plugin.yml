@@ -1,0 +1,16 @@
+name: HubManager
+main: hubmanager.plugins.server.main.HubManager
+version: 1.0
+description: Hub customization.
+author: EnkyHD
+depend: [PlayerManager]
+commands:
+    hubmanager:
+        description: Reload & setspawn command.
+        usage: /<command> <reload|setspawn>
+    parkour:
+        description: Enable parkour mode.
+        usage: /<command>
+    xpshop:
+        description: Use the xpshop.
+        usage: /<command> [saveshop]

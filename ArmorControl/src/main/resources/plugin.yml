@@ -1,0 +1,16 @@
+name: ArmorControl
+main: armorcontrol.plugins.server.main.ArmorControl
+version: 0.8 ALPHA
+description: ArmorControl!
+author: EnkyHD
+depend: [PlayerManager]
+commands:
+    armorcontrol:
+        description: Edit the map.
+        usage: /<command> <editmode|freeze|checkfordupe|reload>
+    stats:
+        description: Your ArmorControl stats.
+        usage: /<command> <pvp|game|playtime>
+    xpshop:
+        description: Use the xpshop.
+        usage: /<command> [saveshop]

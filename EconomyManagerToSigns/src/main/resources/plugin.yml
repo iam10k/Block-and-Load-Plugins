@@ -1,0 +1,9 @@
+name: EconomyManagerToSigns
+main: economymanager.plugins.server.main.EconomyManagerToSigns
+version: 0.9
+description: Economy Manager To Signs.
+author: EnkyHD
+commands:
+    economymanagertosigns:
+        description: Make signs.
+        usage: /<command>

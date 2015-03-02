@@ -1,0 +1,23 @@
+name: BlockBattles
+main: blockbattles.plugins.server.main.BlockBattles
+version: 0.1 ALPHA
+description: BlockBattles!
+author: EnkyHD
+depend: [EnchantmentAPI, PlayerManager]
+commands:
+    blockbattles:
+        description: Edit the arenas.
+        usage: /<command> <editarena|set|addspawn|reloadarena|createarena|createclass> <lobby|spectate|minpoint|maxpoint|infosign|teamasign|teambsign|a|b>
+        aliases: [barena, bbattles]
+    leave:
+        description: Leave your current arena.
+        usage: /<command>
+    enchant:
+        description: Enchant an item.
+        usage: /<command> <enchantment> <level>
+    stats:
+        description: Your BlockBattles stats.
+        usage: /<command> <pvp|playtime>
+    xpshop:
+        description: Use the xpshop.
+        usage: /<command> [saveshop]

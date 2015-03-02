@@ -1,0 +1,7 @@
+name: ChatManager
+main: chatmanager.plugins.server.main.ChatManager
+version: 0.1
+description: ChatManager!
+author: EnkyHD
+depend: [PlayerManager]
+softdepend: [Factions, Essentials]

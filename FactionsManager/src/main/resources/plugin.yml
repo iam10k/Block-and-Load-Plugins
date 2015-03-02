@@ -1,0 +1,25 @@
+name: FactionsManager
+main: factionsmanager.plugins.server.main.FactionsManager
+version: 0.8 ALPHA
+description: Faction server customization.
+author: EnkyHD
+depend: [PlayerManager, Factions]
+commands:
+    factionsmanager:
+        description: Reload command.
+        usage: /<command> reload
+    factionhome:
+        description: Teleport to a Factions home.
+        usage: /<command>
+    stats:
+        description: Your Factions server stats.
+        usage: /<command> <pvp|game|playtime>
+    xray:
+        description: Get a players Xray Stats.
+        usage: /<command> <player>
+    xrayban:
+        description: Ban a player from mining for a week.
+        usage: /<command> <player>
+    xpshop:
+        description: Use the xpshop.
+        usage: /<command> [saveshop]

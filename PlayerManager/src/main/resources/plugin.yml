@@ -1,0 +1,47 @@
+name: PlayerManager
+version: 1.0
+main: playermanager.plugins.server.main.PlayerManager
+author: EnkyHD
+commands:
+    ban:
+        description: Ban a player.
+        usage: /<command> <player>
+    unban:
+        description: Unban a player.
+        usage: /<command> <player>
+    mute:
+        description: Mute a player.
+        usage: /<command> <player>
+    unmute:
+        description: Unmute a player.
+        usage: /<command> <player>
+    setrank:
+        description: Set a players rank.
+        usage: /<command> <player|staff> <player> <rankname>
+    setmultiplier:
+        description: Set a players XP multiplier.
+        usage: /<command> <player> <double>
+    addbadge:
+        description: Add a badge to the player.
+        usage: /<command> <player> <badge>
+    addcredits:
+        description: Add credits to a player.
+        usage: /<command> <player> <amount>
+    player:
+        description: View your player stats.
+        usage: /<command> [badges]
+    nick:
+        description: Set player nickname.
+        usage: /<command> <player> <nickname>
+    playermanager:
+        description: Reload PlayerManager.
+        usage: /<command> reload
+    report:
+        description: Report a player for any reason.
+        usage: /<command> <player> <reason>
+    reports:
+        description: View player reports.
+        usage: /<command> <player> <page> or /<command> <remove|clear> <id|player>
+    mem:
+        description: Check memory stats.
+        usage: /<command>

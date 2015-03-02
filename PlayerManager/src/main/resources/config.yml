@@ -1,0 +1,16 @@
+Server:
+    name: hub
+Connection:
+    Database:
+        host: localhost
+        port: 3306
+        database: minecraft
+        user: localhost
+        password: password
+Announcements:
+    broadcastInterval: 45
+    list:
+        - '&aWelcome!'
+        - '&bWelcome!'
+        - '&6Welcome!'
+        - '&cWelcome!'

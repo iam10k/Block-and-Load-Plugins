@@ -1,0 +1,4 @@
+name: BungeeManager
+main: bungeemanager.plugins.server.main.BungeeManager
+version: 1.0
+author: EnkyHD
