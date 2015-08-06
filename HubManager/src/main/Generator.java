@@ -81,14 +81,14 @@ public class Generator {
             
             // Print each card if full logging mode is on
             if (output.equals("full")) {
-                String printString = "";
+                String printString = "Run: " + x + "\n\n";
                 for (int i = 0; i < board.length; i++) {
                     if (i % 8 == 0) {
                         printString += "\n";
                     }
                     printString += board[i];
                 }
-               printString += "\n\nScore: " + score + "\n";
+                printString += "\n\nScore: " + score + "\n";
 
                 System.out.print(printString);
             }
